@@ -1,6 +1,6 @@
 <!-- Large desktop banner. Must be used with "Large banner limit and switch" mixin -->
 
- <!-- CREATED AT: Thu Jun 20 2019 09:29:03 GMT-0500 (Central Daylight Time) -->
+ <!-- CREATED AT: Thu Jun 20 2019 09:39:57 GMT-0500 (Central Daylight Time) -->
 
 <style>
 /* Hide when editing */
@@ -1334,7 +1334,7 @@ body.rtl .frb-checkbox {
     line-height: 1.2142857143; /*17px @14px*/
 }
 
-/*Donb t show RML when fixed and expanded*/
+/*Don’t show RML when fixed and expanded*/
 .frb--fixed .frb-rml {
     display: none;
 }
@@ -1748,8 +1748,8 @@ legend.error {
                             </li>
                         </ul>
                         <div class="frb-optin-prompt">
-                            <div class="frb-optin-prompt__no">p {{{FR2015_translations,optin-we-sorry}}}</div>
-                            <div class="frb-optin-prompt__yes">p {{{FR2015_translations,optin-thanks-changing}}}</div>
+                            <div class="frb-optin-prompt__no">😔 {{{FR2015_translations,optin-we-sorry}}}</div>
+                            <div class="frb-optin-prompt__yes">😍 {{{FR2015_translations,optin-thanks-changing}}}</div>
                         </div>
                         <div id="frb-optinsurvey-no-wrapper">
                             <div id="frb-optinsurvey-no">
@@ -2313,7 +2313,7 @@ $(function() {
         $('body').off('click keypress', '.frb--minimized');
     };
 
-    // The nagb s yes/no functionality
+    // The nag’s yes/no functionality
     $('#yes-button').on('click keypress', function(e) {
         if (e.which === 13 || e.type === 'click') {
             frb.clickedYes(e);
